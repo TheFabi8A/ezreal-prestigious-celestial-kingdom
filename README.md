@@ -1,22 +1,22 @@
-# Oshi No Ko - 3D
+# Ezreal Prestigious Celestial Kingdom
 
-3D Design of an Anime-themed Cassette: Oshi No Ko 🌟
+3D Design of Ezreal Prestigious Celestial Kingdom Skin 🌟
 
-[![Vercel](https://img.shields.io/badge/site_live-000?style=for-the-badge&logo=vercel&logoColor=black&labelColor=fff)](https://oshi-no-ko-3d.vercel.app//)
+[![Vercel](https://img.shields.io/badge/site_live-000?style=for-the-badge&logo=vercel&logoColor=black&labelColor=fff)](https://ezreal-prestigious-celestial-kingdom.vercel.app/)
 
 ## Build with
 
-[![React](https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=white&labelColor=101010)]()
+[![React](https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=white&labelColor=101010)](https://reactjs.dev/)
 
 [![AtroposJS](https://img.shields.io/badge/atropos_js-b33bf3?style=for-the-badge&logo=javascript&logoColor=white&labelColor=101010)](https://atroposjs.com/)
 
-[![CSS](https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white&labelColor=101010)]()
+[![CSS](https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white&labelColor=101010)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-[![Tailwindcss](https://img.shields.io/badge/tailwindcss-61DAFB?style=for-the-badge&logo=tailwindcss&logoColor=white&labelColor=101010)]()
+[![Tailwindcss](https://img.shields.io/badge/tailwindcss-61DAFB?style=for-the-badge&logo=tailwindcss&logoColor=white&labelColor=101010)](https://tailwindcss.com/)
 
-<div>
-<img style="width:100%; aspect-ratio: 16/9" src="https://raw.githubusercontent.com/TheFabi8A/oshi-no-ko/main/public/screenshots/oshi-no-ko-open.webp" alt="screenshot oshi no ko opened cassette"/>
-</div>
+[![Vercel](https://img.shields.io/badge/vercel-000?style=for-the-badge&logo=vercel&logoColor=white&labelColor=101010)](https://vercel.com/)
+
+![screenshot ezreal prestgious celestial kingdom opened cassette](https://raw.githubusercontent.com/TheFabi8A/ezreal-prestigious-celestial-kingdom/main/public/screenshots/ezreal-open.webp)
 
 ## Author
 
