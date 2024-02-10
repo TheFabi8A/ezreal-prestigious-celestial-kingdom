@@ -4,7 +4,6 @@ import Atropos from "atropos/react";
 import "atropos/css";
 
 import { Cassette } from "./components/Cassette";
-import { HolographicStickert } from "./components/Stickerts";
 
 import { ContextAnime } from "./context/ContextProvider";
 
@@ -37,13 +36,12 @@ export default function App() {
         >
           <audio
             ref={audioRef}
-            src="songs/Idol-YOASOBI.mp3"
+            src="audio/audio.mp3"
             preload="auto"
             onEnded={() => setCassetteVisible(false)}
           />
           <div className="container-content absolute flex h-full w-full justify-end">
             <Cassette />
-            <HolographicStickert />
           </div>
           <span className="face-top" />
           <span className="face-top" />
@@ -57,33 +55,27 @@ export default function App() {
           >
             <img
               className="relative"
-              data-atropos-offset="0"
-              src="front-page/oshi-no-ko.webp"
+              data-atropos-offset=""
+              src="front-page/ezreal.jpg"
               alt="Imagen frontal del contenedor del cassette"
             />
             <img
-              className="absolute left-[35px] top-[37.5%] w-[36%] md:left-11"
-              data-atropos-offset="15"
-              src="front-page/hand-microphone.webp"
-              alt="Micrófono de Ai"
+              className="absolute left-[27%] top-[8%] w-[6.5%]"
+              data-atropos-offset="20"
+              src="front-page/left-horn.png"
+              alt="Cuerno izquierdo de Ezreal"
             />
             <img
-              className="absolute right-[9px] top-[5.5%] w-[33%] md:right-3"
-              data-atropos-offset="15"
-              src="front-page/rabbit.webp"
-              alt="Decorativo del cabello de Ai en forma de conejo con un lazo"
+              className="absolute right-[49.5%] top-[3.5%] w-[10.25%]"
+              data-atropos-offset="20"
+              src="front-page/right-horn.png"
+              alt="Cuerno derecho de Ezreal"
             />
             <img
-              className="absolute right-[15.5%] top-[25%] w-[46.5%]"
+              className="absolute right-[5%] top-[25.25%] w-[34%]"
               data-atropos-offset="15"
-              src="front-page/hand.webp"
-              alt="Mano izquierda de Ai"
-            />
-            <img
-              data-atropos-offset="30"
-              className="absolute left-10 top-10 w-[30%]"
-              src="front-page/logo.webp"
-              alt="Logo del anime Oshi No Ko"
+              src="front-page/arm.png"
+              alt="Brazo derecho de Ezreal"
             />
           </div>
         </Atropos>

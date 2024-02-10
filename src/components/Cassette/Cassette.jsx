@@ -42,8 +42,10 @@ export default function Cassette() {
                 </span>
               </div>
               <div>
-                <h1 className="text-md text-center font-black">アイドル</h1>
-                <h2 className="text-center text-xs">YOASOBI</h2>
+                <h1 className="text-md text-center font-black">
+                  名門の天の王国
+                </h1>
+                <h2 className="text-center text-xs">EZREAL</h2>
               </div>
               <div className="flex flex-col items-center text-sm">
                 <p>無料</p>
@@ -72,7 +74,7 @@ export default function Cassette() {
                 <span className="inline-block pr-[2.5px]">0</span>
               </div>
               <span
-                className={`outline-blacks relative h-7 w-7 overflow-hidden rounded-full border bg-[#f2be4a] shadow-[inset_0_0_10px_0_#000] outline outline-2 ${
+                className={`outline-blacks relative h-7 w-7 overflow-hidden rounded-full border bg-[#5dd688] shadow-[inset_0_0_10px_0_#000] outline outline-2 ${
                   isCassetteVisible ? "animate-spin" : ""
                 }`}
               >
@@ -83,7 +85,7 @@ export default function Cassette() {
                 <span className="absolute -bottom-[2px] left-[calc(25%_-_4px)] h-2 w-1 rotate-[30deg] rounded-t-full bg-white" />
                 <span className="absolute -bottom-[2px] right-[calc(25%_-_4px)] h-2 w-1 -rotate-[30deg] rounded-t-full bg-white" />
               </span>
-              <span className="relative flex h-5 w-1/2 items-center self-start overflow-hidden rounded-sm bg-[#f2be4a] pt-2">
+              <span className="relative flex h-5 w-1/2 items-center self-start overflow-hidden rounded-sm bg-[#5dd688] pt-2">
                 <span className="glass-tape-reel absolute left-0 top-0 z-10 h-full w-full origin-top bg-black/20 outline outline-1 outline-white backdrop-blur-[0.75px]" />
                 <span
                   className={`tape-reel-1 absolute -left-[74px] block h-20 w-20 scale-[2] rounded-full ${
@@ -97,7 +99,7 @@ export default function Cassette() {
                 />
               </span>
               <span
-                className={`relative h-7 w-7 overflow-hidden rounded-full border bg-[#f2be4a] shadow-[inset_0_0_10px_0_#000] outline outline-2 outline-black ${
+                className={`relative h-7 w-7 overflow-hidden rounded-full border bg-[#5dd688] shadow-[inset_0_0_10px_0_#000] outline outline-2 outline-black ${
                   isCassetteVisible ? "animate-spin" : ""
                 }`}
               >
@@ -122,10 +124,10 @@ export default function Cassette() {
         </div>
         <div className="clip-trapezoid relative z-10 h-12 w-[60%] self-center bg-[#2b2b2b]">
           <span className="clip-trapezoid absolute top-1 -z-10 h-full w-full scale-95 bg-[#303030] blur-xl" />
-          <span className="absolute bottom-2 left-5 z-10 h-4 w-4 rounded-full bg-[#f2be4a] shadow-[inset_1.5px_-1.5px_0_0_#ef5b82]" />
-          <span className="absolute bottom-2 right-5 z-10 h-4 w-4 rounded-full bg-[#f2be4a] shadow-[inset_-1.5px_-1.5px_0_0_#ef5b82]" />
-          <span className="absolute bottom-4 right-12 z-10 h-3 w-3 rounded-sm bg-[#f2be4a] shadow-[inset_-1.5px_-1.5px_0_0_#ef5b82]" />
-          <span className="absolute bottom-4 left-12 z-10 h-3 w-3 rounded-sm bg-[#f2be4a] shadow-[inset_1.5px_-1.5px_0_0_#ef5b82]" />
+          <span className="absolute bottom-2 left-5 z-10 h-4 w-4 rounded-full bg-[#5dd688] shadow-[inset_1.5px_-1.5px_0_0_#67e1ed]" />
+          <span className="absolute bottom-2 right-5 z-10 h-4 w-4 rounded-full bg-[#5dd688] shadow-[inset_-1.5px_-1.5px_0_0_#67e1ed]" />
+          <span className="absolute bottom-4 right-12 z-10 h-3 w-3 rounded-sm bg-[#5dd688] shadow-[inset_-1.5px_-1.5px_0_0_#67e1ed]" />
+          <span className="absolute bottom-4 left-12 z-10 h-3 w-3 rounded-sm bg-[#5dd688] shadow-[inset_1.5px_-1.5px_0_0_#67e1ed]" />
         </div>
         <span className="screw bottom-7 left-[calc(50%_-_6px)]" />
       </div>
